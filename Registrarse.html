@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="estilospagina.css">
+</head>
+
+<body>
+    <h1>Registrarse</h1><hr>
+    <header>
+        <form action="register" target="_blank">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre aquí...">
+                <label for="Apellido">Apellido:</label>
+                <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido aquí..."><br>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" name="fecha" id="fecha">
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" placeholder="Ingrese su edad aquí..."><br>
+                <label for="provincias">Selecciona una provincia:</label>
+                <select id="provincias">
+                    <option value="" disabled selected>Elige una provincia</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquén">Neuquén</option>
+                    <option value="Río Negro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Santiago del Estero">Santiago del Estero</option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                    <option value="Tucumán">Tucumán</option>
+                </select>
+                <label for="localidad">Localidad:</label>
+                <input type="text" name="localidad" id="localidad" placeholder="Ingrese su localidad aquí...">
+                <p>
+                    <input type="radio" name="genero" id="genero">Masculino
+                    <input type="radio" name="genero" id="genero">Femenino
+                </p>
+            </fieldset>
+            <label for="email">Correo Electónico:</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su correo electrónico...">
+            <label for="clave">Contraseña:</label>
+            <input type="password" name="clave" id="clave" placeholder="Ingrese una contraseña.."><br>
+            <label for="telefono">Número telefónico:</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Ingrese un número de teléfono...">
+            <label for="clave">Repita su contraseña:</label>
+            <input type="password" name="clave" id="clave" placeholder="Repita su contraseña..."><br>
+            <input type="submit" value="Registrarse">
+        </form>
+    </header>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
